@@ -1,0 +1,208 @@
+
+/* CSS Document */
+
+*{  
+	margin:0px;
+	padding:0px;
+}
+body>header{	
+	background-color:#1e1e1e;
+	width:1349px;
+}
+nav{/* header +vavigation*/
+	clear:both;
+	background:radial-gradient(circle, #B22222 30%, #B22222 60%, #1e1e1e 95%);
+	text-align:center;
+	padding-left:0%;
+	height:45px;
+	width:1420px;
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+	z-index:10;
+}
+
+
+div#menu{
+	width:52.34%;
+	height:5%;
+	float:left;
+}
+div#menu >ul{
+	list-style:none;
+}
+div#menu >ul>li{
+	float:left;
+	margin-left:4.2%;
+	margin-right:1.2%;
+	margin-top:2%;
+	position:relative;
+	padding:0px 12px;
+}
+div#menu >ul>li a{
+	font-family:"Times New Roman", Times, serif;
+	font-size:9px;
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+	padding-top:17px;
+	padding-bottom:14px;
+	padding-left:5px;
+	padding-right:5px;
+}
+div#menu>ul>li>a:hover{
+	background-color:#0c0303;/** đổi màu hover khi nhấn vào thanh menu*/
+
+}
+div#menu >ul>li>a{/*ki tu ,size,đậm,kiểu chữ */
+	font-family:"Times New Roman", Times, serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+}
+div#menu >ul>li>ul{
+	margin-top:7%;
+	list-style:none;
+	line-height:160%;
+	display:none;
+	position:absolute;
+	width:180px;
+}
+	
+div#menu >ul>li:hover ul{
+	display:block;
+	background-color:#1e1e1e;
+	border:1.3px #1e1e1e solid;
+}
+div#menu >ul>li>ul>li:hover{/*hieu ung*/
+	transform:scaleX(1.1);
+	text-shadow:2.5px 2.5px 1px #1e1e1e;
+	background-color:#1e1e1e;
+	border-radius:10px;
+	border-left:1.2px #dd3818 solid;
+	border-right:1.2px #dd3818 solid;
+	transition:all 0.3s ease;
+	position:relative;
+}
+
+.bieutuong{
+	width:40px;
+	height:19px;
+}
+
+.tim{
+	float:left;
+	margin-left:6.3%;
+	background-color:#FFF;
+	margin-top:5px;
+	height:34px;
+	width:346px;
+	border:1px solid #dd3818;
+	border-radius:5px;
+}
+.tim input[type=text]/* căn chỉnh ô text nằm ở giữa thanh*/
+{
+	float:left;
+	height:30px;
+	width:250px;
+	padding-left:15px;
+	padding-top:2px;
+	padding-bottom:2px;
+	font-size:14px;
+	border-radius:7px;
+	border:none;
+}
+.tim input[type=submit]/* can chinh dong tim*/
+{
+	float:right;
+	height:100%;
+	width:80px;
+	padding-top:7px;
+	padding-bottom:7px;
+	background:#FFF;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	font-size:14px;
+}
+.tim input[type=submit]:hover
+{
+	cursor:pointer;
+}
+div#menu ul li ul li ul{
+	list-style:none;
+}
+div#menu ul li ul li:hover ul li{
+	display:block;
+	background-color:#1e1e1e;
+	height:25px;
+	width:150px;	
+}
+div#menu ul li ul li:hover ul li:hover{
+	transform:scaleX(1.1);
+	text-shadow:2.5px 2.5px 1px #1e1e1e;
+	background-color:#1e1e1e;
+	border-radius:10px;
+	border-left:1.2px #dd3818 solid;
+	border-right:1.2px #dd3818 solid;
+	transition:all 0.3s ease;
+	position:relative;
+}
+div#menu ul li ul li:hover ul{
+	display:block;
+	background-color:#1e1e1e;
+	height:70px;
+	position:absolute;
+	margin-left:170px;
+	width:150px;
+	margin-top:-30px;
+	
+}
+div#menu ul li ul li ul li{
+	display:none;
+}
+
+/* Noi Dung*/
+.top2{ width: 1420px; height: 408px;background-color: #ba6d6d; float: left;}
+
+#left1{
+    font-style: italic;
+    width:1420px ;height: 1320px;background-color: #edf3f4;float: left
+
+  
+}
+.bottom{width: 1420px;height: 370px;background-color: rgb(165, 190, 200);float: left;}
+.clr{clear: both;}
+.nutbam{border-radius: 20px;width: 200px;height: 50px;background-color:none;border: rgb(202, 31, 57) solid 1px; color: black;font-weight: bolder;}
+.xemthem{border-radius: 5px;width: 100px;height: 20px;background-color:black;border: rgb(79, 63, 196) solid 1px; color: black;font-weight: bolder;}
+
+/* xe sô .html */
+#left2{
+    font-style: italic;
+    width:1420px ;height: 620px;background-color: #edf3f4;float: left
+
+  
+}
+
+/* xe ga .html */
+#left3{
+    font-style: italic;
+    width:1420px ;height: 600px;background-color: #edf3f4;float: left
+
+  
+}
+
+/* xe moto .html */
+#left4{
+    font-style: italic;
+    width:1420px ;height: 820px;background-color: #edf3f4;float: left
+
+  
+}
+.kl{
+	text-align:center;
+	height:auto;
+	width:1420px;
+  	top: 0;
+	z-index:10;
+}
